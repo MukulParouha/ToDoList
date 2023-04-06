@@ -36,7 +36,7 @@ class App extends Component{
             <div id="form" className="w-40 ">
                 <Form />
             </div>
-            <div id="todo-container" className="w-50 bl-3 mb-4">
+            <div id="todo-container " className="w-50 bl-3 mb-4">
               {/* rendering todoCard component */}
                 { list.map((listItem,index)=>(
                   <div className="mt-6">
